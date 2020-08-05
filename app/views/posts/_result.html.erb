@@ -1,0 +1,14 @@
+<% @posts.each do |post| %>
+<div class="card text-center text-font mt-4 shdw card-bg">
+  <div class="card-header">
+   by <%= post.user.username unless post.user.blank? %>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-white"><%= post.title%></h5>
+    <p class="card-text text-white"><%= post.body%></p>
+  </div>
+  <div class="card-footer text-muted">
+    <%= time_ago_in_words(post.created_at)%>
+  </div>
+</div>
+<% end -%>

@@ -1,1 +1,35 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Handlee&family=Sniglet&display=swap');
+
+body{
+	background-color: whitesmoke;
+}
+
+.navbar{
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-font{
+	font-family: 'Sniglet', cursive;
+}
+
+.card-bg{
+	background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.shdw{
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h1{
+	font-family: 'Handlee', cursive;
+}
+.text-white{
+	color: white !important;
+}
