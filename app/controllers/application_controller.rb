@@ -14,5 +14,4 @@ class ApplicationController < ActionController::Base
     flash[:alert] = 'you must be logged in to perfom that action'
     redirect_to login_path
   end
- 
 end
