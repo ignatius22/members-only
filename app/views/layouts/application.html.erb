@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MembersOnly</title>
+    <title>Club House</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,7 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+<body class="d-flex flex-column">
+    <%= render 'layouts/navbar' %>
+    <div id="page-content">
+      <%= render 'layouts/message' %>
+      <%= yield %>
+    </div>
+  <%=render 'layouts/footer' %>  
+</body>
 </html>
+
+

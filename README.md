@@ -1,5 +1,6 @@
 # Members-only
-This project is about building a plateform where only Users who are signed in can create a post and also see who create a post while users who are not logged in can only see post but can't know who posted.
+
+This project is about building a platform where only Users who are signed in can create a post and also see who create a post while users who are not logged in can only see post but can't know who posted.
 
 ## Built With
 
